@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "todo-fullstack",
+			"path": ".."
+		},
+		{
+			"name": "backend-todo",
+			"path": "../../backend-todo"
+		},
+		{
+			"name": "todo-app",
+			"path": "../../todo-app"
+		}
+	],
+	"settings": {}
+}
