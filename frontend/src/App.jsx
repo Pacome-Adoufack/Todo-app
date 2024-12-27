@@ -77,7 +77,7 @@ const App = () => {
   return (
     <div className='todo-app'>
       <form onSubmit={handleSubmit} className='input-container'>
-        <input type="text" id='input-todo' value={todoName} onChange={(e) => setTodoName(e.target.value)} />
+        <input type="text" id='input-todo' placeholder='add todo' value={todoName} onChange={(e) => setTodoName(e.target.value)} />
         <button id='add-todo'>Add</button>
       </form>
       <ul className='todo-list, todo-container'>
